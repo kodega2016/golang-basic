@@ -11,6 +11,8 @@ func main() {
 	fmt.Println(userDoc)
 
 	// delete(userDoc, "name")
+	// updating the map value
+	userDoc["name"] = "Khadga Bahadur Shrestha"
 
 	name, isOk := userDoc["name"]
 	if isOk {
