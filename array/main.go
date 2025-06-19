@@ -21,4 +21,5 @@ func main() {
 	for i, user := range users {
 		fmt.Println(i, user)
 	}
+	fmt.Println(users[0:2])
 }
