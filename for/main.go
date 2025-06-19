@@ -9,5 +9,12 @@ func main() {
 		sum += i
 	}
 
-	fmt.Println("total:", sum)
+	fmt.Println("sum:", sum)
+
+	total := 1
+	for total < 10 {
+		total += total
+	}
+
+	fmt.Println("total:", total)
 }
